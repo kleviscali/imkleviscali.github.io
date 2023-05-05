@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    min-height: 800px;
+    background-image: url("nature.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.container2{
+    width: 100%;
+    min-height: 1400px;
+    background-color: black;
+    background-size: cover;
+}
+ul{
+    position: absolute;
+    color: white;
+    list-style: none;
+    padding-top: 30px;
+}
+li{
+    display: inline;
+    padding-right: 30px;
+    text-align: center;
+}
+li#title{
+    text-transform: uppercase; 
+    font-weight: bolder; 
+    letter-spacing: 2px; 
+    font-size: 24px;
+    padding-right: 300px;
+    padding-left: 50px;
+}
+.quote{
+    color: yellowgreen;
+    font-size: 18px;
+    margin-top: 0px;
+    padding-left: 400px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.title{
+    color: white;
+    font-size: 50px;
+    padding-left: 400px;
+}
+#signin{
+    padding-right: 450px;
+}
+.container .contact{
+    color: white;
+    text-align: right;
+    padding-right: 35px;
+    padding-top: 200px;
+}
+.scroll{
+    color: white;
+    padding-left: 400px;
+}
+.quote1{
+    color: yellowgreen;
+    font-size: 18px;
+    padding-left: 400px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 150px;
+}
+.text{
+    color: white;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.read{
+    color: yellowgreen;
+    padding-left: 400px;
+}
+#img1{
+    height: 300px;
+    width: 300px;
+    border-radius: 90px;
+    float: right;
+    margin-top: -150px;
+    margin-right: 40px;
+    filter:brightness(500%);
+}
+#img2{
+    height: 300px;
+    width: 300px;
+    border-radius: 90px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.quote2{
+    color: yellowgreen;
+    font-size: 18px;
+    padding-left: 800px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 120px;
+}
+.title2{
+    color: white;    
+    font-size: 50px;
+    padding-left:800px ;
+}
+.text2{
+    color: white;
+    padding-left: 800px;
+    padding-right: 50px;    
+}
+.read2{
+    color: yellowgreen;
+    padding-left: 800px;    
+}
+.footer{
+    background-color: red;
+    width: 100%;
+    min-height: 350px;
+}
+.footer .title{
+    text-transform: uppercase; 
+    font-weight: bolder; 
+    letter-spacing: 2px; 
+    font-size: 24px;
+    padding-left: 130px;
+    padding-top: 80px;
+}
